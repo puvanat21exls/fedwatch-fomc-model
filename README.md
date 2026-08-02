@@ -43,7 +43,8 @@ Initial versions of macro-prediction models often suffer from **silent data leak
 
 Feature importance was validated using **SHAP (SHapley Additive exPlanations) TreeExplainer** on the Random Forest ensemble for the **Hike** class:
 
-![SHAP Summary](results/shap_summary_top.png)
+![SHAP Summary]<img width="5035" height="3429" alt="shap_summary_top" src="https://github.com/user-attachments/assets/23cdfec5-f9c4-435d-9d4e-7e80fc8add32" />
+
 
 ### Key Economic Drivers Identified:
 * **CPI & PCE YoY Inflation:** Strong positive impact on Hike probability when elevated.
