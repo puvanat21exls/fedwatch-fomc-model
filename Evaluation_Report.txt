@@ -1,0 +1,19 @@
+--- WALK-FORWARD (OUT-OF-SAMPLE) EVALUATION ---
+5 expanding-window folds, TimeSeriesSplit
+
+Fold 1: train ends 2004-07, test 2004-08 -> 2008-11 | acc=0.500  macroF1=0.324
+Fold 2: train ends 2008-11, test 2008-12 -> 2013-03 | acc=0.865  macroF1=0.464
+Fold 3: train ends 2013-03, test 2013-04 -> 2017-07 | acc=0.865  macroF1=0.464
+Fold 4: train ends 2017-07, test 2017-08 -> 2021-11 | acc=0.692  macroF1=0.359
+Fold 5: train ends 2021-11, test 2021-12 -> 2026-05 | acc=0.442  macroF1=0.283
+
+Mean OOS accuracy : 0.673
+Mean OOS macro F1 : 0.379
+
+Aggregate confusion matrix (rows=true, cols=pred) [Cut, Hold, Hike]:
+  Cut   [2, 13, 3]
+  Hold  [20, 167, 20]
+  Hike  [8, 21, 6]
+
+Baseline (always 'Hold') accuracy: 0.778
+A useful model must beat this on macro F1, since accuracy alone is inflated by the Hold majority.

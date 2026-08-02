@@ -1,0 +1,11 @@
+
+    --- FOMC POLICY DIRECTION REPORT ---
+    Features as of      : May 2026
+    Predicting change in target rate during: June 2026
+    Prediction          : Hold
+    Probabilities       : Cut=0.28  Hold=0.66  Hike=0.06
+
+    Note: probabilities are from a model whose honest skill level is the
+    out-of-sample walk-forward numbers in Result/Evaluation_Report.txt —
+    NOT the in-sample fit. Interpret accordingly.
+    
