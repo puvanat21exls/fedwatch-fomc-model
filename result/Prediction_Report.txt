@@ -6,6 +6,6 @@
     Probabilities       : Cut=0.28  Hold=0.66  Hike=0.06
 
     Note: probabilities are from a model whose honest skill level is the
-    out-of-sample walk-forward numbers in Result/Evaluation_Report.txt —
+    out-of-sample walk-forward numbers in Result/Evaluation_Report.txt â€”
     NOT the in-sample fit. Interpret accordingly.
     
