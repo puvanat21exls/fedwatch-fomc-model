@@ -1,5 +1,7 @@
 # 🏛️ FedWatch: FOMC Policy Direction Machine Learning Model
 
+> **Archived (Oct 2026).** This early version is superseded by [fedwatch-fomc-realtime](https://github.com/puvanat21exls/fedwatch-fomc-realtime), a pre-registered study using real-time data vintages. Kept for project history.
+
 A machine learning framework that predicts the direction of the Federal Reserve's next-month interest rate decisions (**Cut / Hold / Hike**) using macroeconomic fundamentals, evaluated with strict expanding-window walk-forward validation (`TimeSeriesSplit`).
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
